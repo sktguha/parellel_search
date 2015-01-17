@@ -1,0 +1,25 @@
+{
+  "name": "Common search",
+  "version": "0.0.1",
+  "author":"saikat guha",
+  "manifest_version": 2,
+  "description": "Common search",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "multiple search"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
